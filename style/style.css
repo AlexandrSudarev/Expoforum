@@ -12,6 +12,7 @@ body {
   background-size: cover;
   width: 100%;
   overflow: hidden;
+  overflow-y: hidden;
 }
 .first__screen .first__screen-header {
   margin: auto;
@@ -30,6 +31,7 @@ body {
   justify-content: space-between;
 }
 .first__screen .first__screen-header .header__nav .header__nav-li {
+  background-color: transparent;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -37,7 +39,7 @@ body {
   line-height: 135%;
   /* identical to box height, or 22px */
   text-align: center;
-  color: #FFFFFF;
+  color: white;
 }
 .first__screen .first__screen-header .header__right {
   padding: 0;
@@ -115,7 +117,7 @@ body {
   line-height: 160%;
   /* or 102px */
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
 }
 .first__screen .first__screen-article .screen__article-left .screen__article-subtitle {
   font-family: "Open Sans", sans-serif;
@@ -124,7 +126,7 @@ body {
   font-size: 24px;
   line-height: 140%;
   /* or 34px */
-  color: #FFFFFF;
+  color: white;
 }
 .first__screen .first__screen-article .screen__article-left .screen__article-link {
   display: block;
@@ -391,6 +393,7 @@ body {
 
 .footer {
   background: #30BCC9;
+  overflow-y: hidden;
 }
 .footer .footer-block {
   padding-top: 60px;
@@ -516,6 +519,7 @@ body {
 
   .header__nav-li {
     display: block;
+    text-align: left !important;
   }
 
   .header__right {
