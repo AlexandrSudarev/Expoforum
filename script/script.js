@@ -1,5 +1,5 @@
 let documentItems = document.querySelectorAll('body a, h2, p, h3, h1')
-document.querySelector('#input-search').oninput = function() {
+document.querySelector('.header__right-search-input').oninput = function() {
     let searchValue = this.value.trim();
     if (searchValue != '') {
         documentItems.forEach(function(elem) {
